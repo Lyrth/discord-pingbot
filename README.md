@@ -16,10 +16,14 @@ Edit `pingbot.lua` and change `chid` to the spamchannel's ID, and `msg` if prefe
 Change `slep` if you want the bot to send messages slower, the value is in seconds.
 
 To run, just do:
-```bash
+```
 lua pingbot.lua
 ```
-
+Or, open `start.sh` in Unix-based systems to start it in background. Do:
+```
+screen -x pingbot
+```
+to see it's status.
 
 If all is well, it should print `200` periodically.
 
